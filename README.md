@@ -1,10 +1,27 @@
-# Gemini Omni 1.1 Flash Ext — 逆向 route (简体中文)
+# Gemini Omni 1.1 Flash API (`gemini-omni-1.1-flash-ext`)
 
-> **per-call billing** · model ID `Omni-Flash-Ext` · **逆向/逆向工程** route.
+<!-- conv-kit:v1 -->
 
-**[查看实时价格](https://go.apimart.ai/k-d696d4)** · **[领取 API Key](https://go.apimart.ai/k-9f1262)**
+<p align="center">
+  <img src="assets/badges/price.svg" alt="observed unit price"> <img src="assets/badges/billing.svg" alt="billing model"> <img src="assets/badges/compat.svg" alt="OpenAI-compatible endpoint">
+</p>
 
-gemini-omni-1.1-flash-ext-reverse-api-cn 是 **逆向** 的 Gemini Omni 1.1 Flash Ext 接入仓库：调用 ID `Omni-Flash-Ext`，与官方转接（`gemini-omni-1.1-flash`）并行存在，单价更低。
+<p align="center">
+  <img src="assets/01-product-hero-perfume.jpg" width="820" alt="Gemini Omni 1.1 Flash (gemini-omni-1.1-flash-ext) output generated through APIMart">
+</p>
+
+> **per image, billed by resolution** on the Ext route — one OpenAI-compatible endpoint at `https://api.apimart.ai/v1`, no monthly plan required. *(observed 2026-10-12)*
+
+**[Get an API key](https://go.apimart.ai/k-9f1262)** · **[Live pricing](https://go.apimart.ai/k-dc6199)** · **[Model page](https://go.apimart.ai/k-375345)** · [⚡ 60-second quickstart](#quickstart)
+
+**Why teams call Gemini Omni 1.1 Flash (`gemini-omni-1.1-flash-ext`) through APIMart**
+
+- **One key, entire catalog.** The same `https://api.apimart.ai/v1` base URL and `Authorization` header reach Gemini Omni 1.1 Flash (`gemini-omni-1.1-flash-ext`) and 300+ other image, video and language models — switch the `model` field, not your client.
+- **$1 minimum, pay as you go.** No subscription and no prepaid plan to size up front: top up from $1 and spend it on calls. There is no free quota to burn through first, so the price in this table is the price you pay.
+- **The charge comes back in the response.** Every completed task reports the amount billed (`cost` / `credits_cost`), so a spend number is read per call instead of guessed at month end.
+- **Async by design.** Submit, take the `task_id`, poll `GET /v1/tasks/{id}` — batching and retries are ordinary queue work, not a bespoke integration.
+
+<!-- /conv-kit:v1 -->
 
 ## Published unit prices (snapshot 2026-09-28)
 
